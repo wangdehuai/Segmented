@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		797C0C5E1A3AF3E100FAE067 /* TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 797C0C5D1A3AF3E100FAE067 /* TableView.m */; };
 		79E4FB721A3AE33C0043EE10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E4FB711A3AE33C0043EE10 /* main.m */; };
 		79E4FB751A3AE33C0043EE10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E4FB741A3AE33C0043EE10 /* AppDelegate.m */; };
 		79E4FB771A3AE33C0043EE10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E4FB761A3AE33C0043EE10 /* Images.xcassets */; };
@@ -26,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		797C0C5C1A3AF3E100FAE067 /* TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableView.h; sourceTree = "<group>"; };
+		797C0C5D1A3AF3E100FAE067 /* TableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableView.m; sourceTree = "<group>"; };
 		79E4FB6C1A3AE33C0043EE10 /* Segmented.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Segmented.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79E4FB701A3AE33C0043EE10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79E4FB711A3AE33C0043EE10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -84,6 +87,8 @@
 				79E4FB741A3AE33C0043EE10 /* AppDelegate.m */,
 				79E4FB951A3AE47B0043EE10 /* RootViewController.h */,
 				79E4FB961A3AE47B0043EE10 /* RootViewController.m */,
+				797C0C5C1A3AF3E100FAE067 /* TableView.h */,
+				797C0C5D1A3AF3E100FAE067 /* TableView.m */,
 				79E4FB761A3AE33C0043EE10 /* Images.xcassets */,
 				79E4FB781A3AE33C0043EE10 /* LaunchScreen.xib */,
 				79E4FB6F1A3AE33C0043EE10 /* Supporting Files */,
@@ -218,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79E4FB751A3AE33C0043EE10 /* AppDelegate.m in Sources */,
+				797C0C5E1A3AF3E100FAE067 /* TableView.m in Sources */,
 				79E4FB721A3AE33C0043EE10 /* main.m in Sources */,
 				79E4FB971A3AE47B0043EE10 /* RootViewController.m in Sources */,
 			);

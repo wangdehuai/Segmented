@@ -8,9 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RootViewController : UIViewController
+@interface RootViewController : UIViewController<UITableViewDelegate,UITableViewDataSource,UIScrollViewDelegate>
 
+@property(nonatomic,retain)UIView *segmentedBG;
 @property(nonatomic,retain)UISegmentedControl *segmented;
+@property(nonatomic,retain)NSArray *titlesArray;
 @property(nonatomic,retain)UIScrollView *scrollV;
+@property(nonatomic,retain)UITableView *tableV;
 
 @end
