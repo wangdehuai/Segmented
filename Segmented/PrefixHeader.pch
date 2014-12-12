@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  Segmented
+//
+//  Created by wangdehuai on 14/12/12.
+//  Copyright (c) 2014年 wangdehuai. All rights reserved.
+//
+
+#ifndef Segmented_PrefixHeader_pch
+#define Segmented_PrefixHeader_pch
+
+//获取设备的物理高宽
+#define SCREEN_HEIGHT [[UIScreen mainScreen]bounds].size.height
+#define SCREEN_WIDTH [[UIScreen mainScreen]bounds].size.width
+
+#endif

@@ -10,4 +10,7 @@
 
 @interface RootViewController : UIViewController
 
+@property(nonatomic,retain)UISegmentedControl *segmented;
+@property(nonatomic,retain)UIScrollView *scrollV;
+
 @end
